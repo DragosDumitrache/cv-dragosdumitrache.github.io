@@ -17,33 +17,34 @@ BasicInfo:
 Experience:
   - Employer: GoCardless
     Place: London, UK
+    Badges: [ 'Go', 'Terraform', 'GKE', 'Helm', 'Ruby', 'Ruby on Rails' ]
+    Date: Sep 2021 - Present
     Positions:
       - Title: Software Engineer (Internal Rotation - SRE)
-        Date: Jun 2022 - Present
+#        Date: Jun 2022 - Present
         Details:
           - Contributed to the implementation of a VPN proxy solution for our AU recurring payment product using HaProxy and terraform.
           - Contributed to the upgrade of our terraform modules
           - Led the upgrade of our GKE clusters to more recent versions of Kubernetes and contributed to the update of our terraform modules
           - Improved CI pipeline efficiency, which saved on average 15000 minutes per week
-        Badges: [ 'Go', 'Terraform', 'GKE', 'Helm' ]
       - Title: Software Engineer
-        Date: Sep 2021 - Jun 2022
+#        Date: Sep 2021 - Jun 2022
         Details:
           - Contributed to the development of open-banking payments for banks in the United Kingdom and Europe.
           - Led the variable recurring payment project for Australia in an extensible way so that it could later be reused for other regions.
             This involved collaboration across several groups and with the AU banking providers.
-        Badges: [ 'Ruby', 'Ruby on Rails' ]
   - Employer: Upside Technologies
     Place: London, UK
+    Badges: [ 'Python', 'Java', 'Django', 'AWS', 'K8S' ]
     Positions:
       - Title: Software Engineer
         Date: Nov 2020 - Aug 2021
         Details:
           - Contributed to the development of a social trading platform.
           - Developed a BDD testing framework to facilitate the testing of our code with minimal boilerplate, while simplifying our usage of the pandas library.
-        Badges: [ 'Python', 'Java', 'Django', 'AWS', 'K8S' ]
   - Employer: Anaplan
     Place: London, UK
+    Badges: [ 'Java', 'Python', 'Rust', 'Terraform' ]
     Positions:
       - Title: Software Engineer
         Date: Sep 2020 - Oct 2020
@@ -54,9 +55,15 @@ Experience:
           - Helped expand the grammar and the interpreter for the modelling language testing framework.
           - Improved performance 100-fold based on metrics analysis, saving tens of thousands of pounds per year.
 
-        Badges: [ 'Java', 'Python', 'Rust', 'Terraform' ]
 
 Projects:
+  - Name: Honk
+    Date: 2022
+    Description: A Slack rule-based notifier for Webhooks
+    Link: https://oneroar.io/about
+    Details:
+      - Automatic routing of notifications based on a customisable set of rules.
+    Badges: [ 'Python' ]
   - Name: Zen
     Date: 2018
     Description: Github Utility Tools
