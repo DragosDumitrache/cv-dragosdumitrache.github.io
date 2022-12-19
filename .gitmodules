@@ -1,0 +1,5 @@
+[submodule "themes/almeida-cv"]
+	path = themes/almeida-cv
+	url = https://github.com/ineesalmeida/almeida-cv.git
+[submodule "themes/almeida-cv/"]
+	url = git@github.com:DragosDumitrache/almeida-cv.git

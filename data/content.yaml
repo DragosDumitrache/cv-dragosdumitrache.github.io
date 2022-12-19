@@ -1,0 +1,136 @@
+BasicInfo:
+  FirstName: Dragos
+  LastName: Dumitrache
+  #  Photo: img/avatar.jpg
+  Contacts:
+    - Icon: fas fa-phone
+      Info: +44 7716722418
+    - Icon: fas fa-envelope
+      Info: dragos@dumitrache.me
+    - Icon: fas fa-globe
+      Info: dragos.dumitrache.me
+    - Icon: fas fa-map-marker-alt
+      Info: United Kingdom
+
+#Profile: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+Experience:
+  - Employer: GoCardless
+    Place: London, UK
+    Positions:
+      - Title: Software Engineer (Internal Rotation - SRE)
+        Date: Jun 2022 - Present
+        Details:
+          - Contributed to the implementation of a VPN proxy solution for our AU recurring payment product using HaProxy and terraform.
+          - Contributed to the upgrade of our terraform modules
+          - Led the upgrade of our GKE clusters to more recent versions of Kubernetes and contributed to the update of our terraform modules
+          - Improved CI pipeline efficiency, which saved on average 15000 minutes per week
+        Badges: [ 'Go', 'Terraform', 'GKE', 'Helm' ]
+      - Title: Software Engineer
+        Date: Sep 2021 - Jun 2022
+        Details:
+          - Contributed to the development of open-banking payments for banks in the United Kingdom and Europe.
+          - Led the variable recurring payment project for Australia in an extensible way so that it could later be reused for other regions.
+            This involved collaboration across several groups and with the AU banking providers.
+        Badges: [ 'Ruby', 'Ruby on Rails' ]
+  - Employer: Upside Technologies
+    Place: London, UK
+    Positions:
+      - Title: Software Engineer
+        Date: Nov 2020 - Aug 2021
+        Details:
+          - Contributed to the development of a social trading platform.
+          - Developed a BDD testing framework to facilitate the testing of our code with minimal boilerplate, while simplifying our usage of the pandas library.
+        Badges: [ 'Python', 'Java', 'Django', 'AWS', 'K8S' ]
+  - Employer: Anaplan
+    Place: London, UK
+    Positions:
+      - Title: Software Engineer
+        Date: Sep 2020 - Oct 2020
+      - Title: Associate Software Engineer
+        Date: Jul 2017 - Sep 2020
+        Details:
+          - Contributed to the R&D initiative, which was primarily focused on computation engines, distributed systems, CQRS and event-driven architectures.
+          - Helped expand the grammar and the interpreter for the modelling language testing framework.
+          - Improved performance 100-fold based on metrics analysis, saving tens of thousands of pounds per year.
+
+        Badges: [ 'Java', 'Python', 'Rust', 'Terraform' ]
+
+Projects:
+  - Name: Zen
+    Date: 2018
+    Description: Github Utility Tools
+    Details:
+      - Implemented automatic user access control for GitHub. Improved developer productivity through bulk checkout, clone, and cross-repo Gradle dependency tracking.
+    Badges: [ 'Python' ]
+
+  - Name: NoLog
+    Date: 2017
+    Description: Declarative Logic Programming
+    Details:
+      - Developed a Python framework adding support for declarative logic programming.
+    Badges: [ 'Python' ]
+
+  - Name: Seek
+    Date: 2016
+    Description: Natural Language Processing Tool
+    Details:
+      - Created an information extraction tool capable of extracting entities and summaries from text.
+    Badges: [ 'Python', 'NLTK' ]
+Education:
+  - Course: MEng Computing
+    Place: Imperial College London
+    Date: Oct 2013 - Jun 2017
+    Details: Specialised Artificial Intelligence, with a focus on knowledge representation and temporal logic
+
+
+Skills:
+  - Family: Programming
+    Items:
+      - Java
+      - Python
+      - Rust
+      - SQL
+      - Haskell
+      - Ruby
+      - Javascript
+      - CSS
+      - SASS
+      - Bash
+  - Family: Frameworks
+    Items:
+      - Django
+      - Flask
+      - Cucumber
+      - ANTLR
+      - Ruby on Rails
+      - Rocket
+  - Family: DevOps
+    Items:
+      - Gradle
+      - Cargo
+      - Poetry
+      - Jenkins
+      - Kubernetes
+      - Docker
+      - Helm
+      - Terraform
+      - GCP
+      - AWS
+
+  - Family: Artificial Intelligence
+    Items:
+      - Knowledge Representation
+      - Natural Language Processing
+      - Neural Networks
+      - Logic-Based Learning
+      - Bayesian Networks
+  - Family: Compiler Theory
+    Items:
+      - Type Systems
+      - Models of Computation
+      - Modal and Separation Logic
+
+Languages:
+  - Name: Romanian
+  - Name: English
