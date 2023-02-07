@@ -6,9 +6,7 @@ BasicInfo:
     - Icon: fas fa-phone
       Info: +44 7716722418
     - Icon: fas fa-envelope
-      Info: dragos@dumitrache.me
-    - Icon: fas fa-globe
-      Info: dragos.dumitrache.me
+      Info: dragos@afterburner.dev
     - Icon: fas fa-map-marker-alt
       Info: United Kingdom
 
