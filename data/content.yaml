@@ -24,7 +24,8 @@ Experience:
 #        Date: Jun 2022 - Present
         Details:
           - Guided developers to productionalising their systems via Kubernetes and Terraform, leveraging coding best practices for monoliths and micro-services
-          - Led the initiative to modernise our tech stack through the upgrade of our GKE clusters, terraform modules and open source projects
+          - Fostered a knowledge-sharing culture through the creation of a knowledge-base, which encouraged people to self-serve wherever possible, leading to an increased sense of ownership 
+          - Drove the initiative to modernise our tech stack through the upgrade of our GKE clusters, terraform modules and open source projects, reducing maintenance toil
           - Contributed the company wide cost saving initiative, through CI pipeline improvements, saving on average 15000 minutes per week and approximately $120.000 a year
       - Title: Software Engineer
 #        Date: Sep 2021 - Jun 2022
