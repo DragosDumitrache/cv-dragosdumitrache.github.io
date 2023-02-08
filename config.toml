@@ -6,7 +6,7 @@ enableEmoji = true
 theme = "almeida-cv"
 disableKinds = ["page", "section", "taxonomy", "term", "RSS", "sitemap"]
 
-baseURL = "https://example.com/"
+baseURL = "https://dragos.dumitrache.dev/"
 title = "Dragos Dumitrache"
 #googleAnalytics = ""
 
@@ -24,4 +24,4 @@ colorRightColumnHeadingText = "#333"
 colorRightColumnBodyText = "#333"
 colorRightColumnIconPrimary = "#fff"
 colorRightColumnIconBackground = "#3A3E6E"
-pages = 2
+pages = 1

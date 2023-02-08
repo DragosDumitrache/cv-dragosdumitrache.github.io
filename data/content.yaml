@@ -19,14 +19,14 @@ Experience:
     Date: Sep 2021 - Present
     Positions:
       - Title: Software Engineer (Internal Rotation - SRE)
-#        Date: Jun 2022 - Present
+        #        Date: Jun 2022 - Present
         Details:
           - Guided developers to productionalising their systems via Kubernetes and Terraform, leveraging coding best practices for monoliths and micro-services
-          - Fostered a knowledge-sharing culture through the creation of a knowledge-base, which encouraged people to self-serve wherever possible, leading to an increased sense of ownership 
+          - Fostered a knowledge-sharing culture through the creation of a knowledge-base, which encouraged people to self-serve wherever possible, leading to an increased sense of ownership
           - Drove the initiative to modernise our tech stack through the upgrade of our GKE clusters, terraform modules and open source projects, reducing maintenance toil
           - Contributed the company wide cost saving initiative, through CI pipeline improvements, saving on average 15000 minutes per week and approximately $120.000 a year
       - Title: Software Engineer
-#        Date: Sep 2021 - Jun 2022
+        #        Date: Sep 2021 - Jun 2022
         Details:
           - Contributed to the development of the European open-banking initiatives
           - Helped break down a Ruby monolith logic into smaller, independent services, with well defined API boundaries and responsibilities
@@ -51,7 +51,7 @@ Experience:
         Details:
           - Worked primarily in R&D around an in-memory distributed computation engine, backed by an event-driven architecture, ingesting data and performing calculations and aggregations on sparsely populated datasets.
           - Helped define the architecture of the different components the system was made up of, including the optimisation engine around it. This optimisation engine leveraged concepts from Information Theory and Knowledge Representation to reduce complexity and improve performance.
-          - Improved performance 100-fold based on metrics analysis, saving tens of thousands of pounds per year.
+          - Improved performance 100-fold based on metrics analysis, saving tens of thousands of pounds per year. On a cold start, we were aggregation 10 trillion sparsely populated cells across a 15 quintillion space
           - Helped add sparse time-based calculation support to the legacy system, dealing with cyclic calculations and building a formal specification for this feature, which increased confidence in the correctness of the results without the need for extensive manual testing.
 
 
