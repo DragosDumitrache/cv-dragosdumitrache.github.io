@@ -49,9 +49,10 @@ Experience:
       - Title: Associate Software Engineer
         Date: Jul 2017 - Sep 2020
         Details:
-          - Contributed to the R&D initiative, which was primarily focused on computation engines, distributed systems, CQRS and event-driven architectures.
-          - Helped expand the grammar and the interpreter for the modelling language testing framework.
+          - Worked primarily in R&D around an in-memory distributed computation engine, backed by an event-driven architecture, ingesting data and performing calculations and aggregations on sparsely populated datasets.
+          - Helped define the architecture of the different components the system was made up of, including the optimisation engine around it. This optimisation engine leveraged concepts from Information Theory and Knowledge Representation to reduce complexity and improve performance.
           - Improved performance 100-fold based on metrics analysis, saving tens of thousands of pounds per year.
+          - Helped add sparse time-based calculation support to the legacy system, dealing with cyclic calculations and building a formal specification for this feature, which increased confidence in the correctness of the results without the need for extensive manual testing.
 
 
 Projects:
