@@ -6,7 +6,7 @@ BasicInfo:
     - Icon: fas fa-phone
       Info: +44 7716722418
     - Icon: fas fa-envelope
-      Info: dragos@afterburner.dev
+      Info: dragosd2000@gmail.com
     - Icon: fas fa-map-marker-alt
       Info: United Kingdom
 
@@ -15,22 +15,22 @@ BasicInfo:
 Experience:
   - Employer: GoCardless
     Place: London, UK
-    Badges: [ 'Go', 'Terraform', 'GKE', 'Helm', 'Ruby', 'Ruby on Rails' ]
+    Badges: [ 'Go', 'Terraform', 'GKE', 'Helm', 'Ruby' ]
     Date: Sep 2021 - Present
     Positions:
       - Title: Software Engineer (Internal Rotation - SRE)
         #        Date: Jun 2022 - Present
         Details:
-          - Guided developers to productionalising their systems via Kubernetes and Terraform, leveraging coding best practices for monoliths and micro-services
+          - Guided developers on running production grade systems via Kubernetes and Terraform, leveraging coding best practices for monoliths and micro-services
           - Fostered a knowledge-sharing culture through the creation of a knowledge-base, which encouraged people to self-serve wherever possible, leading to an increased sense of ownership
-          - Drove the initiative to modernise our tech stack through the upgrade of our GKE clusters, terraform modules and open source projects, reducing maintenance toil
-          - Contributed the company wide cost saving initiative, through CI pipeline improvements, saving on average 15000 minutes per week and approximately $120.000 a year
+          - Spearheaded the modernisation effort of the tech stack through the upgrade of our GKE clusters, terraform modules and open source projects, reducing maintenance toil
+          - Contributed to the company wide cost saving initiative, through CI pipeline improvements, saving on average 15000 minutes per week and approximately $120 000 a year
       - Title: Software Engineer
         #        Date: Sep 2021 - Jun 2022
         Details:
           - Contributed to the development of the European open-banking initiatives
           - Helped break down a Ruby monolith logic into smaller, independent services, with well defined API boundaries and responsibilities
-          - Designed the recurring payment API implementation for cross-region compatiblity, to the specifications of several distinct groups.
+          - Designed the recurring payment API implementation for cross-region compatibility, to the specifications of several distinct groups.
   - Employer: Upside Technologies
     Place: London, UK
     Badges: [ 'Python', 'Java', 'Django', 'AWS', 'K8S' ]
@@ -87,7 +87,7 @@ Education:
   - Course: MEng Computing
     Place: Imperial College London
     Date: Oct 2013 - Jun 2017
-    Details: Specialised Artificial Intelligence, with a focus on knowledge representation and temporal logic
+    Details: Specialised in Artificial Intelligence, with a focus on knowledge representation and temporal logic
 
 
 Skills:
