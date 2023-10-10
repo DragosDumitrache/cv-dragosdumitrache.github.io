@@ -13,7 +13,7 @@ BasicInfo:
       Info: <a href="https://github.com/DragosDumitrache">github.com/DragosDumitrache</a>
     - Icon: fas bi bi-stack-overflow
       Class: link
-      Info: <a href="https://stackoverflow.com/u/6204542">stackoverflow</a>
+      Info: <a href="https://stackoverflow.com/u/6204542">stackoverflow/u/6204542</a>
     - Icon: fas fa-map-marker-alt
       Info: United Kingdom
 
