@@ -66,17 +66,17 @@ Experience:
         - Created a BDD testing DSL to increase development speed, improve confidence in the platform and offer developers an easier way to write tests.
 - Employer: Anaplan
   Place: London, UK
-  Badges: [ 'Java', 'Python', 'Rust', 'Terraform' ]
   Positions:
     - Title: Software Engineer
       Date: Sep 2020 - Oct 2020
     - Title: Associate Software Engineer
       Date: Jul 2017 - Sep 2020
+      Badges: [ 'Java', 'Python', 'Rust', 'Terraform' ]
       Details:
         - Worked primarily in R&D around an in-memory distributed computation engine, backed by an event-driven architecture, ingesting data and performing calculations and aggregations on sparsely populated datasets.
         - Helped define the architecture of the different components the system was made up of, including the optimisation engine around it. This optimisation engine leveraged concepts from Information Theory and Knowledge Representation to reduce complexity and improve performance.
-        - Improved performance 100-fold based on metrics analysis, saving tens of thousands of pounds per year. On a cold start, we were aggregation 10 trillion sparsely populated cells across a 15 quintillion space
-        - Helped add sparse time-based calculation support to the legacy system, dealing with cyclic calculations and building a formal specification for this feature, which increased confidence in the correctness of the results without the need for extensive manual testing.
+        - Improved performance 100-fold based on metrics analysis, saving tens of thousands of pounds per year. On a cold start, we were aggregation 10 trillion sparsely populated cells across a 15 quintillion space.
+        - Contributed to the development of sparse time-based calculation support into the legacy system, dealing with cyclic calculations and building a formal specification for this feature. This increased confidence in the correctness of the results without the need for extensive manual testing.
 
 
 Projects:
