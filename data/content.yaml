@@ -84,30 +84,30 @@ Projects:
   Date: 2022 - Present
   Description: Heard, but not seen
   Link: https://oneroar.io/
+  Badges: [ 'Python' ]
   Details:
     - A rule-based notification system for webhooks
-  Badges: [ 'Python' ]
 
 - Name: Zen
   Date: 2018
   Description: Github Utility Tools
+  Badges: [ 'Python' ]
   Details:
     - Implemented automatic user access control for GitHub. Improved developer productivity through bulk checkout, clone, and cross-repo Gradle dependency tracking.
-  Badges: [ 'Python' ]
 
 - Name: NoLog
   Date: 2017
   Description: Declarative Logic Programming
+  Badges: [ 'Python' ]
   Details:
     - Developed a Python framework adding support for declarative logic programming.
-  Badges: [ 'Python' ]
 
 - Name: Seek
   Date: 2016
   Description: Natural Language Processing Tool
+  Badges: [ 'Python', 'NLTK' ]
   Details:
     - Created an information extraction tool capable of extracting entities and summaries from text.
-  Badges: [ 'Python', 'NLTK' ]
 
 Education:
   - Course: MEng Computing
