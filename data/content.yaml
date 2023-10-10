@@ -56,10 +56,10 @@ Experience:
         - Collaborated on the redesign of a Ruby monolith logic into smaller, independent, services, with well defined API boundaries and responsibilities.
 - Employer: Upside Technologies
   Place: London, UK
-  Badges: [ 'Python', 'Java', 'Django', 'AWS', 'K8S' ]
   Positions:
     - Title: Software Engineer
       Date: Nov 2020 - Aug 2021
+      Badges: [ 'Python', 'Java', 'Django', 'AWS', 'K8S' ]
       Details:
         - Optimised and decoupled the overall performance that assessed the performance of all investments in a portfolio, reducing the runtime 6 fold.
         - Contributed to the development of a monolithic social trading platform.
