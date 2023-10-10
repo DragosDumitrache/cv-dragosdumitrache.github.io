@@ -4,85 +4,111 @@ BasicInfo:
   #  Photo: img/avatar.jpg
   Contacts:
     - Icon: fas fa-phone
-      Info: +44 7716722418
+      Info: <a href="tel:+44 7716722418">+44 7716722418</a>
     - Icon: fas fa-envelope
-      Info: dragosd2000@gmail.com
+      Info: <a href="mailto:dragosd2000+resume@gmail.com">dragosd2000+resume@gmail.com</a>
+    - Icon: fas bi bi-linkedin
+      Info: <a href="https://linkedin.com/in/DragosDumitrache">linkedin.com/in/DragosDumitrache</a>
+    - Icon: fas bi bi-github
+      Info: <a href="https://github.com/DragosDumitrache">github.com/DragosDumitrache</a>
+    - Icon: fas bi bi-stack-overflow
+      Class: link
+      Info: <a href="https://stackoverflow.com/u/6204542">stackoverflow</a>
     - Icon: fas fa-map-marker-alt
       Info: United Kingdom
 
-#Profile: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
+Profile: Once upon a time, a nerd that got into software engineering for the fun of it. Along the way, he discovered the joy of breaking a problem down to its smallest piece, and using that to build a solution. This has led him in a never ending pursuit of elegance in all aspects of development.
 Experience:
-  - Employer: GoCardless
-    Place: London, UK
-    Badges: [ 'Go', 'Terraform', 'GKE', 'Helm', 'Ruby' ]
-    Date: Sep 2021 - Present
-    Positions:
-      - Title: Software Engineer (Internal Rotation - SRE)
-        #        Date: Jun 2022 - Present
-        Details:
-          - Guided developers on running production grade systems via Kubernetes and Terraform, leveraging coding best practices for monoliths and micro-services
-          - Fostered a knowledge-sharing culture through the creation of a knowledge-base, which encouraged people to self-serve wherever possible, leading to an increased sense of ownership
-          - Spearheaded the modernisation effort of the tech stack through the upgrade of our GKE clusters, terraform modules and open source projects, reducing maintenance toil
-          - Contributed to the company wide cost saving initiative, through CI pipeline improvements, saving on average 15000 minutes per week and approximately $120 000 a year
-      - Title: Software Engineer
-        #        Date: Sep 2021 - Jun 2022
-        Details:
-          - Contributed to the development of the European open-banking initiatives
-          - Helped break down a Ruby monolith logic into smaller, independent services, with well defined API boundaries and responsibilities
-          - Designed the recurring payment API implementation for cross-region compatibility, to the specifications of several distinct groups.
-  - Employer: Upside Technologies
-    Place: London, UK
-    Badges: [ 'Python', 'Java', 'Django', 'AWS', 'K8S' ]
-    Positions:
-      - Title: Software Engineer
-        Date: Nov 2020 - Aug 2021
-        Details:
-          - Contributed to the development of a monolithic social trading platform
-          - Created a BDD testing DSL to increase development speed, while improving confidence in the platform
-  - Employer: Anaplan
-    Place: London, UK
-    Badges: [ 'Java', 'Python', 'Rust', 'Terraform' ]
-    Positions:
-      - Title: Software Engineer
-        Date: Sep 2020 - Oct 2020
-      - Title: Associate Software Engineer
-        Date: Jul 2017 - Sep 2020
-        Details:
-          - Worked primarily in R&D around an in-memory distributed computation engine, backed by an event-driven architecture, ingesting data and performing calculations and aggregations on sparsely populated datasets.
-          - Helped define the architecture of the different components the system was made up of, including the optimisation engine around it. This optimisation engine leveraged concepts from Information Theory and Knowledge Representation to reduce complexity and improve performance.
-          - Improved performance 100-fold based on metrics analysis, saving tens of thousands of pounds per year. On a cold start, we were aggregation 10 trillion sparsely populated cells across a 15 quintillion space
-          - Helped add sparse time-based calculation support to the legacy system, dealing with cyclic calculations and building a formal specification for this feature, which increased confidence in the correctness of the results without the need for extensive manual testing.
+- Employer: XCharta
+  Place: London, UK
+  Positions:
+    - Title: Founding Engineer
+      Date: Sep 2023 - Oct 2023
+      Badges: [ 'Python', 'Flask', 'GCP' ]
+      Details:
+        - Introduced infrastructure-as-code to standardise the development and shape of the platform, ensuring all our existing and future environments look and behave in a consistent manner.
+        - Created dashboards and metrics for observability, allowing us to better handle and investigate any potential issues.
+        - Improved resilience and performance of the platform by decoupling heavy-duty processes from the main service, and by leveraging asynchronous requests between them.
+    - Title: Contracting Engineer
+      Date: Jul 2023 - Sep 2023
+      Badges: [ 'Python', 'Flask', 'GCP' ]
+      Details:
+        - Advised and assisted with the development of the platform, guiding its implementation to a more production grade state.
+
+- Employer: GoCardless
+  Place: London, UK
+  Positions:
+    - Title: Site Reliability Engineer
+      Date: Jun 2022 - Jun 2023
+      Badges: [ 'Go', 'Terraform', 'K8s', 'Helm', 'Ruby' ]
+      Details:
+        - Led the documentation consolidation efforts and fostered a knowledge-sharing culture through the creation of a knowledge base. 
+          This encouraged people to self-serve whenever possible and resulted in an increased sense of ownership.
+        - Guided developers on running <b>production grade</b> systems via Kubernetes and Terraform, supporting the migration efforts from a monolithic system to a service-oriented architecture.
+        - Spearheaded the modernisation effort of the tech stack through the upgrade of our GKE clusters, terraform modules and open source projects, reducing maintenance toil.
+        - Contributed to the company wide cost saving initiative through CI pipeline improvements, saving on average <b>15000 minutes per week</b> and approximately <b>$120 000 a year</b>.
+    - Title: Software Engineer
+      Date: Sep 2021 - Jun 2022
+      Badges: [ 'Ruby', 'Terraform', 'GKE', 'Jsonnet' ]
+      Details:
+        - Led the design of a recurring payment scheme and its API implementation, aiming for cross-region compatibility.
+        - Assisted with the development of a unified payment gateway service and API that enabled customers to leverage European open-banking capabilities.
+        - Collaborated on the redesign of a Ruby monolith logic into smaller, independent, services, with well defined API boundaries and responsibilities.
+- Employer: Upside Technologies
+  Place: London, UK
+  Badges: [ 'Python', 'Java', 'Django', 'AWS', 'K8S' ]
+  Positions:
+    - Title: Software Engineer
+      Date: Nov 2020 - Aug 2021
+      Details:
+        - Optimised and decoupled the overall performance that assessed the performance of all investments in a portfolio, reducing the runtime 6 fold.
+        - Contributed to the development of a monolithic social trading platform.
+        - Created a BDD testing DSL to increase development speed, improve confidence in the platform and offer developers an easier way to write tests.
+- Employer: Anaplan
+  Place: London, UK
+  Badges: [ 'Java', 'Python', 'Rust', 'Terraform' ]
+  Positions:
+    - Title: Software Engineer
+      Date: Sep 2020 - Oct 2020
+    - Title: Associate Software Engineer
+      Date: Jul 2017 - Sep 2020
+      Details:
+        - Worked primarily in R&D around an in-memory distributed computation engine, backed by an event-driven architecture, ingesting data and performing calculations and aggregations on sparsely populated datasets.
+        - Helped define the architecture of the different components the system was made up of, including the optimisation engine around it. This optimisation engine leveraged concepts from Information Theory and Knowledge Representation to reduce complexity and improve performance.
+        - Improved performance 100-fold based on metrics analysis, saving tens of thousands of pounds per year. On a cold start, we were aggregation 10 trillion sparsely populated cells across a 15 quintillion space
+        - Helped add sparse time-based calculation support to the legacy system, dealing with cyclic calculations and building a formal specification for this feature, which increased confidence in the correctness of the results without the need for extensive manual testing.
 
 
 Projects:
-  - Name: Honk
-    Date: 2022
-    Description: A Slack rule-based notifier for Webhooks
-    Link: https://oneroar.io/about
-    Details:
-      - Automatic routing of notifications based on a customisable set of rules.
-    Badges: [ 'Python' ]
-  - Name: Zen
-    Date: 2018
-    Description: Github Utility Tools
-    Details:
-      - Implemented automatic user access control for GitHub. Improved developer productivity through bulk checkout, clone, and cross-repo Gradle dependency tracking.
-    Badges: [ 'Python' ]
+- Name: Honk
+  Date: 2022 - Present
+  Description: Heard, but not seen
+  Link: https://oneroar.io/
+  Details:
+    - A rule-based notification system for webhooks
+  Badges: [ 'Python' ]
 
-  - Name: NoLog
-    Date: 2017
-    Description: Declarative Logic Programming
-    Details:
-      - Developed a Python framework adding support for declarative logic programming.
-    Badges: [ 'Python' ]
+- Name: Zen
+  Date: 2018
+  Description: Github Utility Tools
+  Details:
+    - Implemented automatic user access control for GitHub. Improved developer productivity through bulk checkout, clone, and cross-repo Gradle dependency tracking.
+  Badges: [ 'Python' ]
 
-  - Name: Seek
-    Date: 2016
-    Description: Natural Language Processing Tool
-    Details:
-      - Created an information extraction tool capable of extracting entities and summaries from text.
-    Badges: [ 'Python', 'NLTK' ]
+- Name: NoLog
+  Date: 2017
+  Description: Declarative Logic Programming
+  Details:
+    - Developed a Python framework adding support for declarative logic programming.
+  Badges: [ 'Python' ]
+
+- Name: Seek
+  Date: 2016
+  Description: Natural Language Processing Tool
+  Details:
+    - Created an information extraction tool capable of extracting entities and summaries from text.
+  Badges: [ 'Python', 'NLTK' ]
+
 Education:
   - Course: MEng Computing
     Place: Imperial College London
@@ -139,4 +165,6 @@ Skills:
 
 Languages:
   - Name: Romanian
+    Level: Native
   - Name: English
+    Level: Fluent

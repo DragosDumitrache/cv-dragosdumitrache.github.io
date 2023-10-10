@@ -1,0 +1,35 @@
+{{ if .Projects }}
+<div id="projects" class="section">
+    <div class="section__heading">
+        <h3 class="section__title">
+            Projects
+        </h3>
+    </div>
+    <div class="section__content">
+        {{ range .Projects }}
+        <div class="experience__job">
+            <div class="experience__subheader">
+                <h3 class="experience__position">
+                    {{ .Name | safeHTML}}: {{ .Description | safeHTML}}
+                </h3>
+                <div class="experience__badges">
+                    <ul>
+                        {{ range .Badges }}
+                        <li class="experience__badge">{{ . }}</li>
+                        {{ end }}
+                    </ul>
+                </div>
+            </div>
+            <ul>
+                {{ range .Details }}
+                <li class="experience__bullet">{{ . }}</li>
+                {{ end }}
+                {{ if .Link }}
+                <li class="experience__bullet">More information: <a href={{ .Link }}>{{ .Link }}</a></li>
+                {{ end }}
+            </ul>
+        </div>
+        {{ end }}
+    </div>
+</div>
+{{ end }}

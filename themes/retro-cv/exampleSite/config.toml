@@ -3,25 +3,27 @@ defaultContentLanguage = "en"
 enableRobotsTXT = true
 enableEmoji = true
 
-theme = "retro-cv"
+theme = "almeida-cv"
 disableKinds = ["page", "section", "taxonomy", "term", "RSS", "sitemap"]
 
-baseURL = "https://dragos.dumitrache.dev/"
-title = "Dragos Dumitrache"
+baseURL = "https://example.com/"
+title = "Example - CV"
 #googleAnalytics = ""
 
 [params]
 enableMetaTags = true
 colorLight = "#fff"
-colorDark = "#333"
+colorDark = "#666"
 colorPageBackground = "#ddd"
-colorPrimary = "#3A3E6E"
-colorSecondary = "#333"
+colorPrimary = "#e3bfb8"
+colorSecondary = "#aaa"
 colorIconPrimary = "#fff"
-colorIconBackground = "#3A3E6E"
+colorIconBackground = "#e3bfb8"
 colorRightColumnBackground = "#f5f5f5"
-colorRightColumnHeadingText = "#333"
-colorRightColumnBodyText = "#333"
+colorRightColumnHeadingText = "#666"
+colorRightColumnBodyText = "#666"
 colorRightColumnIconPrimary = "#fff"
-colorRightColumnIconBackground = "#3A3E6E"
-pages = 2
+colorRightColumnIconBackground = "#e3bfb8"
+pages = 1
+# Set this param to 'true' to swap the bar positions
+swapColumns = false
