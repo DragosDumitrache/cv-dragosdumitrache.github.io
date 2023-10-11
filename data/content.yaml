@@ -87,6 +87,7 @@ Projects:
   Badges: [ 'Python' ]
   Details:
     - A rule-based notification system for webhooks
+    - Aims to improve developer productivity and increase focus, by only notifying of the right events for everyone
 
 - Name: Zen
   Date: 2018

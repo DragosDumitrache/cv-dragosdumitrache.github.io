@@ -12,9 +12,9 @@
                 <div class="experience__item">
                 {{ end }}
                     <div class="experience__header">
-                        <h3 class="experience__company">
+                        <h2 class="experience__company">
                             {{ .Employer | safeHTML }}
-                        </h3>
+                        </h2>
                         <h3 class="experience__place">{{ .Place | safeHTML }}</h3>
                     </div>
                     {{ range .Positions }}
